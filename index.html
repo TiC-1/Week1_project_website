@@ -42,11 +42,13 @@
 
     <section id="contact">
       <h2>Contact</h2>
+      <p>Please don't hesitate to contact us.</p>
       <form action="https://formspree.io/your@email.com"
       method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="text" name="message">
+    Your name<input type="text" name="name" placeholder="John Doe">
+    Your email<input type="email" name="_replyto" placeholder="johndoe@domain.com">
+    Your Message<textarea type="text" name="message" placeholder="I want a website…"></textarea>
+    <!-- todo: set size of textarea in css file -->
     <input type="submit" value="Send">
   </form>
 
