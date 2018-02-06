@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	background-color: #f0eaf1;
 	line-height: 1;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -55,18 +56,81 @@ table {
 
 
 .headline__container {
-  color: red;
-	background-color: black;
+	background-color: #19111a;
 	text-align: center;
+	padding-bottom: 30px;
+
 
 }
 .headline__title {
-  font-size: 30px;
-  color: blue;
+  font-size: 90px;
+  padding: 20px;
+
+  color: #da533d;
+
 }
 .headline__subtitle {
   font-size: 20px;
+		color: white;
+		text-align:center;
+
 }
 .main_nav{
 		text-align: center;
+
+}
+
+#About{
+	background-color:white;
+	padding:30px;
+
+}
+
+#Team{
+	background-color:white;
+	padding:30px;
+
+}
+#Contact{
+	background-color:white;
+	padding:30px;
+
+}
+h2{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: left;
+	color:  #da533d;
+	border-bottom:4px solid #19111a;
+}
+
+p{
+	padding-top: 20px;
+}
+
+.gallery.team .photo {
+
+	  display: inline-block;
+	width: 40%;
+	padding:25px;
+
+}
+
+.gallery.team{
+		text-align: center;
+}
+
+figcaption{
+	font-size: 40px;
+	padding-bottom:10px;
+}
+
+
+
+footer{
+		background-color: #19111a;
+	color: #da533d;
+	padding:30px;
+	text-align:center;
+	font-size: 15px;
 }
