@@ -2,13 +2,17 @@
 
 <html>
 <head>
+  <!-- Font Awasome CDN link for hamburger menu icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
+  <!-- ********************************************************* -->
+  <!-- Nav section copied from https://codepen.io/markcaron/pen/pPZVWO -->
+
+  <nav>
     <a href="#main-menu"
        role="button"
        id="main-menu-toggle"
@@ -21,8 +25,7 @@
       <span class="fa fa-bars" aria-hidden="true"></span>
     </a>
 
-    <h1 class="logo">TiC1</h1>
-
+    <h1 class="logo">Tic1</h1>
 
     <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
       <a href="#main-menu-toggle"
@@ -37,24 +40,27 @@
         <span class="fa fa-close" aria-hidden="true"></span>
       </a>
       <ul>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Team">Team</a></li>
-        <li><a href="#Contact">Contact</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Team">Team</a></li>
+          <li><a href="#Contact">Contact</a></li>
       </ul>
-    </nav>
+  </nav>
     <a href="#main-menu-toggle"
        class="backdrop"
        tabindex="-1"
        aria-hidden="true" hidden></a>
+  </nav>
 
-  <div class="headline__container">
-    <h1 class ="headline__title">Turn into coders</h1>
-    <h2 class ="headline__subtitle"> Bootcamp in Turin</h2>
-  </div>
+  <!-- End copied nav section -->
+  <!-- ********************************************************* -->
 
+
+<header>
+    <div class="headline__container">
+        <h1 class ="headline__title">Turn into coders</h1>
+            <h2 class ="headline__subtitle"> Bootcamp in Turin</h2>
+</div>
 </header>
-
-
 
 
 <section id="About">
