@@ -61,31 +61,38 @@ body {
 }
 
 
+.main_nav{
+		background-color: #19111a;
+		text-align: center;
+		padding-bottom: 10px;
+}
+
+.link {
+		color: white;
+		text-decoration: none;
+}
+.list {
+		padding-bottom: 6px;
+}
 
 .headline__container {
 	background-color: #19111a;
 	text-align: center;
-	padding-bottom: 30px;
-
-
 }
+
 .headline__title {
-  font-size: 90px;
+  font-size: 35px;
   padding: 20px;
-
-  color: #da533d;
-
+	color: #da533d;
 }
+
 .headline__subtitle {
   font-size: 20px;
-		color: white;
-		text-align:center;
-
+	color: white;
+	text-align:center;
 }
-.main_nav{
-		text-align: center;
 
-}
+
 
 #About{
 	background-color:white;
@@ -179,4 +186,28 @@ footer{
 	padding:30px;
 	text-align:center;
 	font-size: 15px;
+}
+
+@media (min-width: 768px){
+		header {
+				display: flex;
+
+			}
+			.headline__container{
+					width: 50%;
+			}
+			.main_nav {
+					padding-top: 30px;
+					width: 50%;
+					display: inline;
+					margin:0;
+					overflow: hidden;
+					float: right;
+					text-align: center;
+				}
+				.list{
+						display: inline;
+						padding-left: 6px;
+						padding-right: 6px;
+				}
 }
