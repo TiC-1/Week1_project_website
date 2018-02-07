@@ -1,11 +1,7 @@
-/*RESET START*/
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500');
-
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -33,9 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	background-color: #f0eaf1;
 	line-height: 1;
-	font-family: 'Ubuntu', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -52,7 +46,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* END OF RESET */
+/* END OF RESET
+/* **************************************************************** */
+
+
+/* GENERAL SETTINGS */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+
 
 
 .headline__container {
@@ -91,11 +98,7 @@ table {
 	padding:30px;
 
 }
-#Contact{
-	background-color:white;
-	padding:30px;
 
-}
 h2{
 	font-size: 40px;
 	font-weight: 500;
@@ -125,10 +128,53 @@ figcaption{
 	padding-bottom:10px;
 }
 
+/* CONTACT */
 
+#Contact { /* whole 'Contact' section */
+	margin: 1rem 0 0 0;
+	padding: 2rem;
+	background-color: #ddd;
+}
+
+#Contact p {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+.contactForm__field { /* contact form 'label + field' groups */
+	display: block;
+	margin: 2rem 0;
+}
+
+.contactForm__field input,
+.contactForm__field textarea { /* contact form input fields */
+	display: block;
+	font-size: 1.1rem;
+	margin-top: 0.5rem;
+	width: 100%;
+	max-width: 20rem;
+}
+
+.contactForm__field textarea {
+  height: 10rem;
+	width: 100%;
+	max-width: 40rem;
+}
+
+.contactForm__button input {
+ background-color: red;
+ padding: 0.3rem 1.2rem;
+ border: none;
+ border-radius: 0.5rem;
+ font-size: 1.3rem;
+ text-transform: uppercase;
+}
+
+/* END CONTACT */
+/* ******************************************************************** */
 
 footer{
-		background-color: #19111a;
+	background-color: #19111a;
 	color: #da533d;
 	padding:30px;
 	text-align:center;
