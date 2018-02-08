@@ -192,11 +192,11 @@ section h2:nth-child(1) { /* section main title h2 */
 /* **************************************************************** */
 /* CONTACT */
 
-#Contact { /* whole 'Contact' section */
+.Contact { /* whole 'Contact' section */
 	background-color: #ddd;
 }
 
-#Contact p {
+.Contact p {
 	font-size: 1.2rem;
 	font-style: italic;
 }
