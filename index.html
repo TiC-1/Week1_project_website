@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
+  <title>Turn into coders // First bootcamp</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
@@ -11,99 +12,115 @@
 </head>
 
 <body>
-  <header>
-    <div class="headline__container">
-      <h1 class="headline__title">Turn into coders</h1>
+  <div class="page__container">
+    <header id="header" class="header">
+      <div class="header__container">
+        <div class="logo__container">
+          <h1 class="logo__title">Turn into coders</h1>
+        </div>
 
-    </div>
-
-    <nav class="main_nav">
-      <ul>
-        <li class="list"><a class="link" href="#About">About</a></li>
-        <li class="list"><a class="link" href="#Contact">Contact</a></li>
-        <li class="list"><a class="link" href="#Team">Team</a></li>
-      </ul>
-    </nav>
-  </header>
-
-
-  <figure class="main_photo">
-    <!-- <img src="images/astronaut.jpg" alt="Floating Astronaut" width="100%"> -->
-    <figcaption class="main_text"> Web Developers based in Turin. </figcaption>
-  </figure>
-
-  <section class="About">
-    <div>
-      <h2>We’re training</h2>
-      <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
-
-
-    </div>
-  </section>
-
-  <section class="Team">
-    <div class="team__container">
-      <h2>We’re a Team</h2>
-      <p>And we're on the way to become THE Dream Team!</p>
-
-      <div class="team__gallery">
-
-        <figure class="photo">
-          <img src="https://picsum.photos/600/?random" alt="Alberto" width="100%">
-          <figcaption>Alberto</figcaption>
-          <h3>Flex addict</h3>
-          <p><a href="https://www.linkedin.com/in/alberto-de-stefani-b7719613a/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
-        </figure>
-
-        <figure class="photo">
-          <img src="https://picsum.photos/601/?random" alt="Matteo" width="100%">
-          <figcaption>Matteo</figcaption>
-          <h3>Hamburger menu Ninja, yum!</h3>
-          <p><a href="https://www.linkedin.com/in/matteo-r-a44030135/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
-        </figure>
-
-        <figure class="photo">
-          <img src="https://picsum.photos/602/?random" alt="Giulia" width="100%">
-          <figcaption>Giulia</figcaption>
-          <h3>In &lt;3 with her new laptop</h3>
-          <p><a href="https://www.linkedin.com/in/giulia-spina-737a2178/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
-        </figure>
-
-        <figure class="photo">
-          <img src="https://picsum.photos/603/?random" alt="Claudio" width="100%">
-          <figcaption>Claudio</figcaption>
-          <h3>Rocket (science) Man</h3>
-          <p><a href="https://www.linkedin.com/in/claudio-scafesi-565b27129/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
-        </figure>
-
-        <figure class="photo">
-          <img src="https://picsum.photos/604/?random" alt="Iannis" width="100%">
-          <figcaption>Iannis</figcaption>
-          <h3>Lost in cyberspace ;-(</h3>
-          <p><a href="https://www.linkedin.com/in/ianniscamillieri/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
-        </figure>
+        <nav class="nav">
+          <div class="nav__container">
+            <ul class="nav__list">
+              <a class="nav__link" href="#about"><li class="nav__element">About</a></li>
+              <a class="nav__link" href="#team"><li class="nav__element">Team</a></li>
+              <a class="nav__link" href="#contact"><li class="nav__element">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
 
       </div>
-    </div>
-  </section>
 
-  <section class="Contact">
-    <h2>We’re for hire</h2>
-    <p>Book your project now! Contact us…</p>
-    <form action="https://formspree.io/your@email.com" method="POST">
-      <div class="contactForm__field">Your name<input type="text" name="name" placeholder="John Doe"></div>
-      <div class="contactForm__field">Your email<input type="email" name="_replyto" placeholder="johndoe@domain.com"></div>
-      <div class="contactForm__field">Your Message<textarea type="text" name="message" placeholder="Your websites are amazing. I definitely want one! Please call me ASAP. John"></textarea></div>
-      <div class="contactForm__button"><input type="submit" value="Send"></div>
-    </form>
+    </header>
 
-  </section>
 
-  <footer>
-    <p>COPYRIGHT © 2018 TiC1</p>
+    <figure class="headline__image">
+      <!-- <img src="images/astronaut.jpg" alt="Floating Astronaut" width="100%"> -->
+      <figcaption class="headline__text"> Web Developers based in Turin. </figcaption>
+    </figure>
 
-  </footer>
+    <section id="about" class="about">
+      <div class="about__container">
 
+        <h2 class="section__title about__title">We’re training</h2>
+        <p>We are small developers who aspire to become big…</p>
+
+
+      </div>
+
+    </section>
+
+    <section id="team" class="team">
+      <div class="team__container">
+
+        <h2 class="section__title team__title">We’re a team</h2>
+        <p>And we're on the way to become the DREAM team!</p>
+
+        <div class="team__gallery">
+
+          <figure class="photo">
+            <img src="https://picsum.photos/600/?random" alt="Alberto" width="100%">
+            <figcaption>Alberto</figcaption>
+            <h3>Flex addict</h3>
+            <p><a href="https://www.linkedin.com/in/alberto-de-stefani-b7719613a/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
+          </figure>
+
+          <figure class="photo">
+            <img src="https://picsum.photos/601/?random" alt="Matteo" width="100%">
+            <figcaption>Matteo</figcaption>
+            <h3>Hamburger menu Ninja, yum!</h3>
+            <p><a href="https://www.linkedin.com/in/matteo-r-a44030135/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
+          </figure>
+
+          <figure class="photo">
+            <img src="https://picsum.photos/602/?random" alt="Giulia" width="100%">
+            <figcaption>Giulia</figcaption>
+            <h3>In &lt;3 with her new laptop</h3>
+            <p><a href="https://www.linkedin.com/in/giulia-spina-737a2178/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
+          </figure>
+
+          <figure class="photo">
+            <img src="https://picsum.photos/603/?random" alt="Claudio" width="100%">
+            <figcaption>Claudio</figcaption>
+            <h3>Rocket (science) Man</h3>
+            <p><a href="https://www.linkedin.com/in/claudio-scafesi-565b27129/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
+          </figure>
+
+          <figure class="photo">
+            <img src="https://picsum.photos/604/?random" alt="Iannis" width="100%">
+            <figcaption>Iannis</figcaption>
+            <h3>Lost in cyberspace ;-(</h3>
+            <p><a href="https://www.linkedin.com/in/ianniscamillieri/"><i class="fa fa-linkedin-square"></i> Find me on linkedIn</a></p>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact__container">
+
+
+        <h2 class="section__title contact__title">We’re for hire</h2>
+        <p class="class__text">Book your project now! Contact us…</p>
+        <form action="https://formspree.io/your@email.com" method="POST">
+          <div class="contactForm__field">Your name<input type="text" name="name" placeholder="John Doe"></div>
+          <div class="contactForm__field">Your email<input type="email" name="_replyto" placeholder="johndoe@domain.com"></div>
+          <div class="contactForm__field">Your Message<textarea type="text" name="message" placeholder="Your websites are amazing. I definitely want one! Please call me ASAP. John"></textarea></div>
+          <div class="contactForm__button"><input type="submit" value="Send"></div>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="footer__container">
+
+        <p>COPYRIGHT © 2018 TiC1</p>
+      </div>
+
+    </footer>
+
+  </div>
 </body>
 
 </html>

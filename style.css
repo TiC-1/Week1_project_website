@@ -1,4 +1,5 @@
 /* **************************************************************** */
+
 /* CSS RESET
 
 
@@ -7,280 +8,293 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 /* END OF RESET
 /* **************************************************************** */
 
-
 /* **************************************************************** */
+
 /* GENERAL SETTINGS */
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500');
-
 body {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 18px;
-	color: #333;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: #333;
 }
 
-
-section { /* Section blocks */
-	margin: 16px 0 0 0;
+section {
+  /* Section blocks */
+  margin: 16px 0 0 0;
   padding: 32px;
 }
 
-section h2:nth-child(1) { /* section main title h2 */
-	font-size: 48px;
-	font-weight: bold;
-	/* text-transform: uppercase; */
-	letter-spacing: 1.6px;
-	color: #da533d;
-	margin-bottom: 16px;
+h2.section__title {
+  /* section main title h2 */
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  color: #da533d;
+  margin-bottom: 16px;
 }
 
 /* END OF GENERAL SETTINGS
 /* **************************************************************** */
 
-.main_nav{
-		background-color: #19111a;
-		text-align: center;
-		padding-bottom: 10px;
+/* **************************************************************** */
+
+/* HEADER (Logo and Navigation) */
+
+.header__container {
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+	overflow: hidden;
 }
 
-.link {
-		color: white;
-		text-decoration: none;
-}
-.list {
-		padding-bottom: 6px;
-}
+.logo__container {}
 
-.headline__container {
-	background-color: #19111a;
-
-}
-
-.headline__title {
+.logo__title {
   padding: 32px;
-	color: #da533d;
-	font-size: 35px;
-	font-weight: bold;
-	/* text-transform: uppercase; */
-	letter-spacing: 1.6px;
+  color: #da533d;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
 }
 
-.headline__subtitle {
-  font-size: 20px;
-	color: white;
-	text-align:center;
+.nav__container {
+  background-color: #da533d;
+  padding: 10px;
 }
 
-.main_photo {
-	height: 300px;
-	background-image: url("images/astronaut.jpg");
-	background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-position: center;
-	background-size: cover;
+a.nav__link {
+  color: white;
+  text-decoration: none;
 }
 
-.main_text {
-
-	position: relative;
-	display: inline-block;
-	padding: 10px 10px;
-	color: white;
-	left: 30px;
-	top: 40px;
-	background-color: rgba(0, 0, 0, 0.8);
-
+a.nav__link:hover {
+  color: black;
+  text-decoration: none;
 }
 
+.nav__element {
+  letter-spacing: 1px;
+  padding: 5px;
+}
+
+
+/* END NAVIGATION
+/* **************************************************************** */
 
 /* **************************************************************** */
-/* TEAM */
 
-.team__container {
+/* HEADLINE */
+
+.headline__image {
+  height: 300px;
+  background-image: url("images/astronaut.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
 }
 
+.headline__text {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  color: white;
+  left: 30px;
+  top: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
+/* END HEADLINE
+/* **************************************************************** */
 
+/* **************************************************************** */
+
+/* TEAM */
+
+.team__container {}
 
 .team__gallery {
-	margin-top: 32px;
-	text-align: center;
+  margin-top: 32px;
+  text-align: center;
 }
 
 .team__gallery figure {
-	display: inline-block;
-	width: 100%;
-	max-width: 250px;
-	margin: 0 16px 32px 16px;
-	border: 1px solid #ddd;
+  display: inline-block;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 16px 32px 16px;
+  border: 1px solid #ddd;
 }
 
 .team__gallery figcaption {
-	font-weight: bold;
-	font-size: 24px;
-	margin-top: 16px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 16px;
 }
 
 .team__gallery figure h3 {
-	font-style: italic;
-	margin-top: 3.2px;
+  font-style: italic;
+  margin-top: 3.2px;
 }
 
 .team__gallery figure h3+p {
-	margin: 8px 0 24px 0;
+  margin: 8px 0 24px 0;
 }
-
 
 .team__gallery figure p a {
-	font-size: 15px;
-	font-weight: normal;
-	text-decoration: none;
-
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
 }
+
 .team__gallery figure p a:hover {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /* END TEAM */
-/* **************************************************************** */
-
-
 
 /* **************************************************************** */
+
+/* **************************************************************** */
+
 /* CONTACT */
 
-.Contact { /* whole 'Contact' section */
-	background-color: #ddd;
+.contact {
+  /* whole 'Contact' section */
+  background-color: #ddd;
 }
 
-.Contact p {
-	font-size: 1.2rem;
-	font-style: italic;
+.contact__container p {
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
-.contactForm__field { /* contact form 'label + field' groups */
-	display: block;
-	margin: 2rem 0;
+.contactForm__field {
+  /* contact form 'label + field' groups */
+  display: block;
+  margin: 2rem 0;
 }
 
-.contactForm__field input,
-.contactForm__field textarea { /* contact form input fields */
-	display: block;
-	font-size: 16px;
-	margin-top: 8px;
-	width: 100%;
-	max-width: 320px;
+.contactForm__field input, .contactForm__field textarea {
+  /* contact form input fields */
+  display: block;
+  font-size: 16px;
+  margin-top: 8px;
+  width: 100%;
+  max-width: 320px;
 }
 
 .contactForm__field textarea {
   height: 160px;
-	width: 100%;
-	max-width: 640px;
+  width: 100%;
+  max-width: 640px;
 }
 
 .contactForm__button input {
- background-color: #da533d;
- padding: 4.8px 19.2px;
- border: none;
- border-radius: 8px;
- font-size: 20.8px;
- text-transform: uppercase;
+  background-color: #333;
+  color: #ddd;
+  padding: 4.8px 19.2px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20.8px;
+  text-transform: uppercase;
 }
 
 /* END CONTACT */
+
 /* ******************************************************************** */
 
-footer{
-	background-color: #19111a;
-	color: #da533d;
-	padding:30px;
-	text-align:center;
-	font-size: 15px;
+/* **************************************************************** */
+
+/* FOOTER */
+
+.footer__container {
+  background-color: #19111a;
+  color: #da533d;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
 }
 
-@media (min-width: 768px){
-		header {
-				display: flex;
+/* END FOOTER */
 
-			}
-			.headline__container{
-					width: 50%;
-			}
-			.headline__title {
-			  padding: 32px;
-				font-size: 48px;
-				font-weight: bold;
-			}
+/* **************************************************************** */
 
-			.main_nav {
-					padding-top: 50px;
-					width: 50%;
-					display: inline;
-					margin:0;
-					overflow: hidden;
-					float: right;
-					text-align: center;
-				}
+/* **************************************************************** */
 
-				.main_photo {
-					height: 600px;
-				}
+/* MEDIA QUERIES */
 
-				.main_text {
-					font-size: 40px;
-					top: 100px;
-					left: 100px;
-				}
+@media (min-width: 768px) {
 
-				.list{
-						display: inline;
-						padding-left: 6px;
-						padding-right: 6px;
-				}
+	header {}
+
+	.logo__container {}
+
+	.logo__title {
+    float: left;
+  }
+
+	.nav__container {
+    float: right;
+		text-align: right;
+    display: inline;
+  }
+
+	.nav__element {
+    display: inline;
+  }
+
+	.headline__image {
+    height: 600px;
+  }
+
+	.headline__text {
+    font-size: 40px;
+  }
+
 }
+
+/* END MEDIA QUERIES */
+
+/* **************************************************************** */
