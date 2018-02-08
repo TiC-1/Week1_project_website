@@ -65,6 +65,7 @@ body {
 	color: #333;
 }
 
+
 section { /* Section blocks */
 	margin: 1rem 0 0 0;
 	padding: 2rem;
@@ -81,7 +82,6 @@ section h2:nth-child(1) { /* section main title h2 */
 
 /* END OF GENERAL SETTINGS
 /* **************************************************************** */
-
 
 .main_nav{
 		background-color: #19111a;
@@ -114,7 +114,26 @@ section h2:nth-child(1) { /* section main title h2 */
 	text-align:center;
 }
 
+.main_photo {
+	height: 300px;
+	background-image: url("images/astronaut.jpg");
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+	background-size: cover;
+}
 
+.main_text {
+
+	position: relative;
+	display: inline-block;
+	padding: 10px 10px;
+	color: white;
+	left: 30px;
+	top: 40px;
+	background-color: rgba(0, 0, 0, 0.8);
+
+}
 
 
 /* **************************************************************** */
@@ -154,10 +173,12 @@ section h2:nth-child(1) { /* section main title h2 */
 	margin: 0.5rem 0 1.5rem 0;
 }
 
+
 .team__gallery figure p a {
 	font-size: 0.9rem;
 	font-weight: normal;
 	text-decoration: none;
+
 }
 .team__gallery figure p a:hover {
 	font-weight: bold;
@@ -228,6 +249,7 @@ footer{
 			.headline__container{
 					width: 50%;
 			}
+
 			.main_nav {
 					padding-top: 30px;
 					width: 50%;
@@ -237,6 +259,17 @@ footer{
 					float: right;
 					text-align: center;
 				}
+
+				.main_photo {
+					height: 600px;
+				}
+
+				.main_text {
+					font-size: 40px;
+					top: 100px;
+					left: 100px;
+				}
+
 				.list{
 						display: inline;
 						padding-left: 6px;
