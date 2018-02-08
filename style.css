@@ -74,7 +74,7 @@ section { /* Section blocks */
 section h2:nth-child(1) { /* section main title h2 */
 	font-size: 48px;
 	font-weight: bold;
-	/* text-transform: uppercase; */
+
 	letter-spacing: 1.6px;
 	color: #da533d;
 	margin-bottom: 16px;
