@@ -192,11 +192,11 @@ section h2:nth-child(1) { /* section main title h2 */
 /* **************************************************************** */
 /* CONTACT */
 
-#Contact { /* whole 'Contact' section */
+.Contact { /* whole 'Contact' section */
 	background-color: #ddd;
 }
 
-#Contact p {
+.Contact p {
 	font-size: 1.2rem;
 	font-style: italic;
 }
@@ -222,7 +222,7 @@ section h2:nth-child(1) { /* section main title h2 */
 }
 
 .contactForm__button input {
- background-color: red;
+ background-color: #da533d;
  padding: 0.3rem 1.2rem;
  border: none;
  border-radius: 0.5rem;
