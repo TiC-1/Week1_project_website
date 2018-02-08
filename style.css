@@ -67,17 +67,17 @@ body {
 
 
 section { /* Section blocks */
-	margin: 1rem 0 0 0;
-	padding: 2rem;
+	margin: 16px 0 0 0;
+  padding: 32px;
 }
 
 section h2:nth-child(1) { /* section main title h2 */
-	font-size: 3rem;
+	font-size: 48px;
 	font-weight: bold;
 	/* text-transform: uppercase; */
-	letter-spacing: 0.1rem;
+	letter-spacing: 1.6px;
 	color: #da533d;
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 }
 
 /* END OF GENERAL SETTINGS
@@ -99,13 +99,16 @@ section h2:nth-child(1) { /* section main title h2 */
 
 .headline__container {
 	background-color: #19111a;
-	text-align: center;
+
 }
 
 .headline__title {
-  font-size: 35px;
-  padding: 20px;
+  padding: 32px;
 	color: #da533d;
+	font-size: 35px;
+	font-weight: bold;
+	/* text-transform: uppercase; */
+	letter-spacing: 1.6px;
 }
 
 .headline__subtitle {
@@ -146,7 +149,7 @@ section h2:nth-child(1) { /* section main title h2 */
 
 
 .team__gallery {
-	margin-top: 2rem;
+	margin-top: 32px;
 	text-align: center;
 }
 
@@ -154,28 +157,28 @@ section h2:nth-child(1) { /* section main title h2 */
 	display: inline-block;
 	width: 100%;
 	max-width: 250px;
-	margin: 0 1rem 2rem 1rem;
+	margin: 0 16px 32px 16px;
 	border: 1px solid #ddd;
 }
 
 .team__gallery figcaption {
 	font-weight: bold;
-	font-size: 1.5rem;
-	margin-top: 1rem;
+	font-size: 24px;
+	margin-top: 16px;
 }
 
 .team__gallery figure h3 {
 	font-style: italic;
-	margin-top: 0.2rem;
+	margin-top: 3.2px;
 }
 
 .team__gallery figure h3+p {
-	margin: 0.5rem 0 1.5rem 0;
+	margin: 8px 0 24px 0;
 }
 
 
 .team__gallery figure p a {
-	font-size: 0.9rem;
+	font-size: 15px;
 	font-weight: normal;
 	text-decoration: none;
 
@@ -209,24 +212,24 @@ section h2:nth-child(1) { /* section main title h2 */
 .contactForm__field input,
 .contactForm__field textarea { /* contact form input fields */
 	display: block;
-	font-size: 1.1rem;
-	margin-top: 0.5rem;
+	font-size: 16px;
+	margin-top: 8px;
 	width: 100%;
-	max-width: 20rem;
+	max-width: 320px;
 }
 
 .contactForm__field textarea {
-  height: 10rem;
+  height: 160px;
 	width: 100%;
-	max-width: 40rem;
+	max-width: 640px;
 }
 
 .contactForm__button input {
  background-color: #da533d;
- padding: 0.3rem 1.2rem;
+ padding: 4.8px 19.2px;
  border: none;
- border-radius: 0.5rem;
- font-size: 1.3rem;
+ border-radius: 8px;
+ font-size: 20.8px;
  text-transform: uppercase;
 }
 
@@ -249,9 +252,14 @@ footer{
 			.headline__container{
 					width: 50%;
 			}
+			.headline__title {
+			  padding: 32px;
+				font-size: 48px;
+				font-weight: bold;
+			}
 
 			.main_nav {
-					padding-top: 30px;
+					padding-top: 50px;
 					width: 50%;
 					display: inline;
 					margin:0;
