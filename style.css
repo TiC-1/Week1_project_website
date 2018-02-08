@@ -72,9 +72,10 @@ section { /* Section blocks */
 
 section h2:nth-child(1) { /* section main title h2 */
 	font-size: 3rem;
-	text-transform: uppercase;
+	font-weight: bold;
+	/* text-transform: uppercase; */
 	letter-spacing: 0.1rem;
-	color: green;
+	color: #da533d;
 	margin-bottom: 1rem;
 }
 
@@ -133,12 +134,13 @@ section h2:nth-child(1) { /* section main title h2 */
 .team__gallery figure {
 	display: inline-block;
 	width: 100%;
-	max-width: 400px;
+	max-width: 250px;
 	margin: 0 1rem 2rem 1rem;
 	border: 1px solid #ddd;
 }
 
 .team__gallery figcaption {
+	font-weight: bold;
 	font-size: 1.5rem;
 	margin-top: 1rem;
 }
