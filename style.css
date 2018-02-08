@@ -1,3 +1,7 @@
+/* **************************************************************** */
+/* CSS RESET
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -50,6 +54,7 @@ table {
 /* **************************************************************** */
 
 
+/* **************************************************************** */
 /* GENERAL SETTINGS */
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500');
@@ -59,6 +64,24 @@ body {
 	font-size: 18px;
 	color: #333;
 }
+
+
+section { /* Section blocks */
+	margin: 1rem 0 0 0;
+	padding: 2rem;
+}
+
+section h2:nth-child(1) { /* section main title h2 */
+	font-size: 3rem;
+	font-weight: bold;
+	/* text-transform: uppercase; */
+	letter-spacing: 0.1rem;
+	color: #da533d;
+	margin-bottom: 1rem;
+}
+
+/* END OF GENERAL SETTINGS
+/* **************************************************************** */
 
 .main_nav{
 		background-color: #19111a;
@@ -112,52 +135,64 @@ body {
 
 }
 
-#About{
-	background-color:white;
-	padding:30px;
 
+/* **************************************************************** */
+/* TEAM */
+
+.team__container {
 }
 
-#Team{
-	background-color:white;
-	padding:30px;
 
+
+
+.team__gallery {
+	margin-top: 2rem;
+	text-align: center;
 }
 
-h2{
-	font-size: 40px;
-	font-weight: 500;
-	text-align: left;
-	color:  #da533d;
-	border-bottom:4px solid #19111a;
+.team__gallery figure {
+	display: inline-block;
+	width: 100%;
+	max-width: 250px;
+	margin: 0 1rem 2rem 1rem;
+	border: 1px solid #ddd;
 }
 
-p{
-	padding-top: 20px;
+.team__gallery figcaption {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-top: 1rem;
 }
 
-.gallery.team .photo {
-
-	  display: inline-block;
-	width: 35%;
-	padding: 10px;
-
+.team__gallery figure h3 {
+	font-style: italic;
+	margin-top: 0.2rem;
 }
 
-.gallery.team{
-		text-align: center;
+.team__gallery figure h3+p {
+	margin: 0.5rem 0 1.5rem 0;
 }
 
-figcaption{
-	font-size: 20px;
-	padding-bottom:10px;
+
+.team__gallery figure p a {
+	font-size: 0.9rem;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+.team__gallery figure p a:hover {
+	font-weight: bold;
 }
 
+/* END TEAM */
+/* **************************************************************** */
+
+
+
+/* **************************************************************** */
 /* CONTACT */
 
 #Contact { /* whole 'Contact' section */
-	margin: 1rem 0 0 0;
-	padding: 2rem;
 	background-color: #ddd;
 }
 
