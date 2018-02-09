@@ -297,6 +297,7 @@ a.nav__link:hover {
   body {
     position: relative; /* make body not under fixed header */
     top: 100px;
+
   }
 
   .logo__title {
@@ -316,8 +317,13 @@ a.nav__link:hover {
     display: inline;
   }
 
-  a.nav__link:hover {
+.social_link_list {
     color: #da533d;
+    font-size:30px;
+  }
+
+.social_link_list:hover {
+  color: black;
   }
 
 	.headline__image {
