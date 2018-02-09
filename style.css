@@ -163,7 +163,7 @@ a.nav__link:hover {
   display: inline-block;
   width: 100%;
   max-width: 250px;
-  margin: 0 16px 32px 16px;
+  margin: 0 0 32px;
   border: 1px solid #ddd;
 }
 
@@ -285,11 +285,6 @@ a.nav__link:hover {
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
-
-	header {}
-
-	.logo__container {}
-
 	.logo__title {
     float: left;
   }
@@ -312,6 +307,9 @@ a.nav__link:hover {
     font-size: 40px;
   }
 
+  .team__gallery figure {
+    margin: 0 16px 32px 16px;
+  }
 }
 
 /* END MEDIA QUERIES */
