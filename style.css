@@ -285,7 +285,21 @@ a.nav__link:hover {
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
-	.logo__title {
+
+  .header__container { /* make header fixed-top */
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+
+  body {
+    position: relative; /* make body not under fixed header */
+    top: 100px;
+  }
+
+  .logo__title {
     float: left;
   }
 
