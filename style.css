@@ -65,7 +65,7 @@ section {
   padding: 32px;
 }
 
-h2.section__title {
+.section__title {
   /* section main title h2 */
   font-size: 48px;
   font-weight: bold;
@@ -190,6 +190,25 @@ a.nav__link:hover {
 
 .team__gallery figure p a:hover {
   font-weight: bold;
+}
+
+/* SOCIAL ICON CLASS */
+
+.fa {
+	color: #da533d;
+}
+
+.social_link {
+	display: block;
+	padding: 7px 0px;
+
+}
+
+.social_link_list {
+	display: inline;
+	padding-right: 6px;
+	padding-left: 6px;
+	/* font-size: 22px; */
 }
 
 /* END TEAM */
