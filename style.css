@@ -80,6 +80,13 @@ section {
 /* **************************************************************** */
 
 /* HEADER (Logo and Navigation) */
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 20px;
+  z-index: 1;
+  opacity: 0.8;
+}
 
 .header__container {
   background-color: black;
@@ -286,7 +293,16 @@ a.nav__link:hover {
 
 @media (min-width: 768px) {
 
-	header {}
+  header {
+  width: 100%;
+}
+
+    .fixed {
+      position: fixed;
+      top: 0;
+      height: 80px;
+      z-index: 1;
+    }
 
 	.logo__container {}
 

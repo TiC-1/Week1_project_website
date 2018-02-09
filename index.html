@@ -2,6 +2,20 @@
 
 <html lang="en">
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+	   $(window).bind('scroll', function() {
+	   var navHeight = $( window ).height() - 80;
+			 if ($(window).scrollTop() > navHeight) {
+				 $('header').addClass('fixed');
+			 }
+			 else {
+				 $('header').removeClass('fixed');
+			 }
+		});
+	});
+</script>
 <head>
   <meta charset="UTF-8">
   <title>Turn into coders // First bootcamp</title>
