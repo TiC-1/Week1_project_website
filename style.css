@@ -187,6 +187,25 @@ section h2:nth-child(1) { /* section main title h2 */
 	font-weight: bold;
 }
 
+/* SOCIAL ICON CLASS */
+
+.fa {
+	color: #da533d;
+}
+
+.social_link {
+	display: block;
+	padding: 7px 0px;
+
+}
+
+.social_link_list {
+	display: inline;
+	padding-right: 6px;
+	padding-left: 6px;
+	/* font-size: 22px; */
+}
+
 /* END TEAM */
 /* **************************************************************** */
 
