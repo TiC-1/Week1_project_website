@@ -216,9 +216,19 @@ a.nav__link:hover {
 /* **************************************************************** */
 
 .projects__photo {
+
+  display: inline-block;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 0 32px;
+  border: 1px solid #ddd;
+  margin-top: 32px;
   text-align: center;
 }
 
+.projects__container{
+  text-align: center;
+}
 
 /* **************************************************************** */
 
