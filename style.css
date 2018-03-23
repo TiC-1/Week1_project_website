@@ -215,6 +215,11 @@ a.nav__link:hover {
 
 /* **************************************************************** */
 
+.projects__photo {
+  text-align: center;
+}
+
+
 /* **************************************************************** */
 
 /* CONTACT */
@@ -338,6 +343,12 @@ a.nav__link:hover {
     margin: 0 16px 32px 16px;
   }
 
+  .projects__photo {
+    width: 30%;
+    margin: auto auto;
+
+
+  }
 
 }
 
