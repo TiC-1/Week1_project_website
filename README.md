@@ -1,10 +1,7 @@
-                                                        #WHY
->We are a group of students at the TiC course,as students of that course we have to fulfill our weekly targets, in particular this week we have covered a lot of basic aspects of Github, learned about Javascript and created a project that consists in this portfolio website.
+# Team Website
 
+Before it started to become a kind of portfolio, this website has been our **first Bootcamp project**. At that time, we were 5 trainees following a “4+8+4 weeks” [practice of full-stack JavaScript](http://www.turnintocoders.it/en/bootcamp.html) coding in Turin, Italy.
 
-                                                       #WHAT
->This site have to be our buisness card. Our presentation to possible clients. We wanted it clean , smooth and obiouvsly mobile first. We developed it in group on Github, this have improved our pair/group programming skills.
+This tiny “JavaScript-free” first project was only intend to let us **practice [Git](https://git-scm.com/) collaboration flow** by working all at the same time on the same HTML single file!
 
-                                                       #HOW
-
->First we started making a html skeleton with the basics.Then we splitted the group in two couples , one of the couples worked mainly on build a responsive menu to navigate the site , the second worked on the structure and the content of the website.We managed to keep everything clean and working trough Github.   
+Indeed, we add **lots of funny “[Oh shit Git!](http://ohshitgit.com/)”** by doing it, and we definitely hope that you'll have no less pleasure in watching it now, while browsing our training projects.
