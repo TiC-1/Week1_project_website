@@ -8,7 +8,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,7 +99,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -27,16 +117,21 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -52,11 +147,14 @@ table {
 
 /* GENERAL SETTINGS */
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500");
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 18px;
   color: #333;
+}
+a {
+  text-decoration: none;
 }
 
 section {
@@ -85,10 +183,11 @@ section {
   background-color: black;
   text-align: center;
   font-weight: bold;
-	overflow: hidden;
+  overflow: hidden;
 }
 
-.logo__container {}
+.logo__container {
+}
 
 .logo__title {
   padding: 32px;
@@ -117,7 +216,6 @@ a.nav__link:hover {
   letter-spacing: 1px;
   padding: 5px;
 }
-
 
 /* END NAVIGATION
 /* **************************************************************** */
@@ -152,7 +250,8 @@ a.nav__link:hover {
 
 /* TEAM */
 
-.team__container {}
+.team__container {
+}
 
 .team__gallery {
   margin-top: 32px;
@@ -178,7 +277,7 @@ a.nav__link:hover {
   margin-top: 3.2px;
 }
 
-.team__gallery figure h3+p {
+.team__gallery figure h3 + p {
   margin: 8px 0 24px 0;
 }
 
@@ -195,20 +294,19 @@ a.nav__link:hover {
 /* SOCIAL ICON CLASS */
 
 .fa {
-	color: #da533d;
+  color: #da533d;
 }
 
 .social_link {
-	display: block;
-	padding: 7px 0px;
-
+  display: block;
+  padding: 7px 0px;
 }
 
 .social_link_list {
-	display: inline;
-	padding-right: 6px;
-	padding-left: 6px;
-	/* font-size: 22px; */
+  display: inline;
+  padding-right: 6px;
+  padding-left: 6px;
+  /* font-size: 22px; */
 }
 
 /* END TEAM */
@@ -216,8 +314,6 @@ a.nav__link:hover {
 /* **************************************************************** */
 
 .projects__photo {
-
-  display: inline-block;
   width: 100%;
   max-width: 250px;
   margin: 0 0 32px;
@@ -226,8 +322,9 @@ a.nav__link:hover {
   text-align: center;
 }
 
-.projects__container{
+.projects__container {
   text-align: center;
+  display: flex;
 }
 
 /* **************************************************************** */
@@ -250,7 +347,8 @@ a.nav__link:hover {
   margin: 2rem 0;
 }
 
-.contactForm__field input, .contactForm__field textarea {
+.contactForm__field input,
+.contactForm__field textarea {
   /* contact form input fields */
   display: block;
   font-size: 16px;
@@ -300,8 +398,8 @@ a.nav__link:hover {
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
-
-  .header__container { /* make header fixed-top */
+  .header__container {
+    /* make header fixed-top */
     width: 100%;
     height: 100px;
     position: fixed;
@@ -312,40 +410,39 @@ a.nav__link:hover {
   body {
     position: relative; /* make body not under fixed header */
     top: 100px;
-
   }
 
   .logo__title {
     float: left;
   }
 
-	.nav__container {
+  .nav__container {
     float: right;
-		text-align: right;
+    text-align: right;
     display: inline;
     background-color: black;
     padding-top: 45px;
     padding-right: 30px;
   }
 
-	.nav__element {
+  .nav__element {
     display: inline;
   }
 
-.social_link_list {
+  .social_link_list {
     color: #da533d;
-    font-size:30px;
+    font-size: 30px;
   }
 
-.social_link_list:hover {
-  color: black;
+  .social_link_list:hover {
+    color: black;
   }
 
-	.headline__image {
+  .headline__image {
     height: 600px;
   }
 
-	.headline__text {
+  .headline__text {
     font-size: 40px;
   }
 
@@ -356,10 +453,7 @@ a.nav__link:hover {
   .projects__photo {
     width: 30%;
     margin: auto auto;
-
-
   }
-
 }
 
 /* END MEDIA QUERIES */
