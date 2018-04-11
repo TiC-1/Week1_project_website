@@ -153,6 +153,9 @@ body {
   font-size: 18px;
   color: #333;
 }
+a {
+  text-decoration: none;
+}
 
 section {
   /* Section blocks */
